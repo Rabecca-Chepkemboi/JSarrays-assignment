@@ -24,8 +24,8 @@ console.log(eliminate(myFruits));
 let duplicateArray = myFruits.filter((Element, index) => myFruits.indexOf(Element) !== index);
 console.log(duplicateArray);
 
-let arry3 = ["the", "way", "x",4];
-let wordsearch = "the";
+let arry3 = ["we", "way", "x",4];
+let wordsearch = "we";
 if (arry3.includes = (wordsearch)){
     console.log(wordsearch);
 }
@@ -33,7 +33,9 @@ else {
     console.log("the search word was not found");
 } 
 
-// let words = "sevink";
+let words = "sevink";
+let x = words.split('').sort() .join('');
+console.log(x)
 
 
 
